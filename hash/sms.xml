@@ -318,13 +318,25 @@
 	</software>
 
 	<!-- Notes: optional SK-1100 keyboard support -->
-	<software name="alexkiddb" cloneof="alexkidd">
-		<description>Alex Kidd in Miracle World (Bra, v1, Pirate)</description>
+	<software name="alexkidd1" cloneof="alexkidd">
+		<description>Alex Kidd in Miracle World (Euro, USA, v0)</description>
 		<year>1986</year>
-		<publisher>&lt;pirate&gt;</publisher>
+		<publisher>Sega</publisher>
 		<part name="cart" interface="sms_cart">
 			<dataarea name="rom" size="131072">
-				<rom name="alex kidd in miracle world (b) [hack].bin" size="131072" crc="7545d7c2" sha1="823c3051018c7acce15a7ff1d704eab5dd686a1f" offset="000000" />
+				<rom name="alex kidd in miracle world (usa, europe).bin" size="131072" crc="17a40e29" sha1="8cecf8ed0f765163b2657be1b0a3ce2a9cb767f4" offset="000000" />
+			</dataarea>
+		</part>
+	</software>
+	
+	<!-- Notes: fan made release, which runs in original system and was also released and distributed as physical copy. More info: https://youtu.be/6ntwR94J6iM https://goo.gl/9efrGv-->
+	<software name="alexkiddb" cloneof="alexkidd2">
+		<description>Alex Kidd in Miracle World 2 (World, bootleg)</description>
+		<year>2017</year>
+		<publisher>Ian Wall</publisher>
+		<part name="cart" interface="sms_cart">
+			<dataarea name="rom" size="131072">
+				<rom name="alex kidd in miracle world 2.sms" size="524288" crc="7de172ff" sha1="d85aba7a276d751302f6a076ab2beb32cd654497" offset="000000"/>
 			</dataarea>
 		</part>
 	</software>
